@@ -1,0 +1,12 @@
+I downloaded the source of python from the link https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz
+unzipped  the zip file and compiled the .configur file inside using the commands
+./configure 
+--prefix=/usr  
+--enable-shared               
+--with-system-expat             
+--with-system-ffi               
+--with-ensurepip=yes             
+--enable-unicode=ucs4 && make
+which i found using my google
+and running  those commands python copy was successfully installed
+
